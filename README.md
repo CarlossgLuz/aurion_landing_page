@@ -106,8 +106,7 @@ Aurion Page/
 │           ├── logo.png
 │           ├── produto.png
 │           └── produto-ignite.png
-└── templates/
-    └── index.html
+└── index.html
 ```
 
 ---
