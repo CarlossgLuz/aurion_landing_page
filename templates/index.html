@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AURION Nutrition - Suplementação Premium de Alto Desempenho">
+    <title>AURION Nutrition</title>
+
+    <!-- Icon -->
+    <link rel="icon" href="../static/uploads/img/icon.png" type="image/png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="../static/css/style.css">
+
+</head>
+<body>
+    <!-- Botão Voltar ao Topo -->
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <!-- Header -->
+    <header class="site-header" role="banner" aria-label="Cabeçalho do site">
+        <div class="container header-inner">
+            <a href="#home" class="brand" aria-label="Home">
+                <img src="../static/uploads/img/icon.png" alt="Logo do site" class="brand-logo" />
+                <span class="brand-text">AURION</span>
+            </a>
+
+            <button class="nav-toggle" aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menu">
+                <span class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </span>
+            </button>
+
+            <nav id="primary-nav" class="primary-nav" role="navigation" aria-label="Navegação principal">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#benefits" class="nav-link">Sobre</a></li>
+                <li><a href="#testimonials" class="nav-link">Depoimentos</a></li>
+                <li><a href="#product" class="nav-link">Lançamentos</a></li>
+            </ul>
+            <div class="nav-cta">
+                <a href="#form" class="btn btn-ghost">Lista VIP</a>
+            </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-brand">AURION NUTRITION</span>
+                <h1 class="hero-title">
+                    LIBERE O <span class="highlight">IGNITE</span><br>
+                    DENTRO DE VOCÊ
+                </h1>
+                <p class="hero-description">
+                    O pré-treino premium que redefine seus limites.<br>
+                    <span class="highlight-text">Energia explosiva, foco absoluto e performance incomparável.</span>
+                </p>
+                <div class="hero-buttons">
+                    <a href="#form" class="btn btn-primary">Garanta o Seu</a>
+                    <a href="#benefits" class="btn btn-secondary">Saiba Mais</a>
+                </div>
+                <div class="scroll-indicator">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                </div>
+            </div>
+            <div class="hero-product">
+                <div class="product-glow"></div>
+                <div class="product-container">
+                    <div class="product-image">
+                        <img src="../static/uploads/img/produto.png" alt="IGNITE Pre-Workout">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão de Beneficios -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="highlight">POTÊNCIA</span> EM CADA DOSE
+            </h2>
+            <p class="section-subtitle">
+                Formulação científica de elite para atletas que não aceitam limites
+            </p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Energia Explosiva</h3>
+                    <p class="benefit-description">
+                        Cafeína premium + compostos energéticos de ação rápida para sessões intensas sem quedas.
+                    </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <circle cx="12" cy="12" r="6"></circle>
+                            <circle cx="12" cy="12" r="2"></circle>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Foco Absoluto</h3>
+                    <p class="benefit-description">
+                        Nootrópicos de alta performance para concentração máxima durante todo o treino.
+                    </p>
+                </div>
+
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
+                        </svg>
+                    </div>
+                    <h3 class="benefit-title">Performance Máxima</h3>
+                    <p class="benefit-description">
+                        Beta-alanina, citrulina e creatina para resistência, força e pump incomparáveis.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão de Comentarios -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">
+                TESTADO POR <span class="highlight">ATLETAS</span>
+            </h2>
+            <p class="section-subtitle">
+                Profissionais de elite já confiam no poder do IGNITE
+            </p>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.2">
+                            <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "IGNITE mudou meu jogo. A energia é limpa, o foco é cirúrgico e o pump é irreal. Melhor pré-treino que já experimentei. Super recomendo."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Rafael Costa</h4>
+                            <p class="author-title">Fisiculturista</p>
+                        </div>
+                        <div class="rating">
+                            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.2">
+                            <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Não treino mais sem IGNITE. A diferença na performance é notável desde a primeira dose. Ingredientes premium fazem toda a diferença."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Mariana Silva</h4>
+                            <p class="author-title">Atleta de CrossFit</p>
+                        </div>
+                        <div class="rating">
+                            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <svg width="40" height="40" viewBox="0 0 24 24" fill="currentColor" opacity="0.2">
+                            <path d="M6 17h3l2-4V7H5v6h3zm8 0h3l2-4V7h-6v6h3z"/>
+                        </svg>
+                    </div>
+                    <p class="testimonial-text">
+                        "Recomendo IGNITE para todos os meus atletas. Qualidade excepcional, resultados consistentes. Uma marca que chegou para dominar."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-info">
+                            <h4 class="author-name">Lucas Mendes</h4>
+                            <p class="author-title">Personal Trainer</p>
+                        </div>
+                        <div class="rating">
+                            <span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span><span>⭐</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sessão de Produto -->
+    <section id="product" class="product-spotlight" aria-labelledby="spotlight-title">
+    <div class="container">
+        <div class="product-spotlight-grid">
+        <figure class="product-card" role="group" aria-label="Produto Ignite">
+            <div class="product-media">
+            <img src="../static/uploads/img/produto-ignite.png" alt="IGNITE Pre-Workout - embalagem" />
+            </div>
+
+            <figcaption class="product-info">
+            <h3 id="spotlight-title" class="product-title">IGNITE — Pré Treino Premium</h3>
+            <p class="product-desc">
+                Fórmula avançada para energia, foco e pump. Desenvolvido para treinos intensos — ingredientes premium, sabor marcante e fórmula testada.
+            </p>
+
+            <div class="price-row" aria-hidden="false">
+                <span class="price-original" aria-hidden="true">R$ 199,90</span>
+                <strong class="price-discount" data-price="199.90" data-discount="25" aria-live="polite">R$ 99,90</strong>
+                <span class="price-badge">LANÇAMENTO</span>
+            </div>
+
+            <div class="product-actions">
+                <button class="btn btn-coming-soon" disabled aria-disabled="true">Em breve</button>
+                <small class="product-note">Ao entrar na lista VIP você garante prioridade na compra.</small>
+            </div>
+            </figcaption>
+        </figure>
+        </div>
+    </div>
+    </section>
+
+    <!-- Sessão de Formulario -->
+    <section class="form-section" id="form">
+        <div class="container">
+            <div class="form-container">
+                <div class="form-icon">
+                    <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M8.5 14.5A2.5 2.5 0 0011 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 11-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 002.5 2.5z"/>
+                    </svg>
+                </div>
+                <h2 class="form-title">
+                    ENTRE NA <span class="highlight">LISTA VIP</span>
+                </h2>
+                <p class="form-subtitle">
+                    Seja um dos primeiros a garantir seu IGNITE com <span class="highlight-text">desconto exclusivo</span> no lançamento
+                </p>
+
+                <form id="preOrderForm" class="pre-order-form">
+                    <div class="form-group">
+                        <label for="name">Nome Completo</label>
+                        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                    </div>
+                    <button type="submit" class="btn btn-form">
+                        Garantir Meu Desconto
+                    </button>
+                    <p class="form-disclaimer">
+                        Ao se cadastrar, você concorda em receber comunicações sobre o lançamento do IGNITE.
+                    </p>
+                </form>
+
+                <div id="successMessage" class="success-message" style="display: none;">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <h3>Cadastro realizado com sucesso!</h3>
+                    <p>Você está na lista VIP. Em breve enviaremos seu desconto exclusivo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-logo"><span class="highlight">AURION</span> Nutrition</h3>
+                    <p class="footer-tagline">Suplementação Premium de Alto Desempenho</p>
+                </div>
+
+                <div class="footer-social">
+                    <a href="https://instagram.com" target="_blank" class="social-link" aria-label="Instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"></path>
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                        </svg>
+                    </a>
+                    <a href="https://facebook.com" target="_blank" class="social-link" aria-label="Facebook">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a href="https://twitter.com" target="_blank" class="social-link" aria-label="Twitter">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <div class="logo-container">
+                    <img src="../static/uploads/img/logo.png" alt="Logo">
+                </div>
+                <p class="footer-copyright">
+                    © 2025 AURION Nutrition. Todos os direitos reservados.
+                </p>
+                <p class="footer-disclaimer">
+                    Este produto não se destina a diagnosticar, tratar, curar ou prevenir qualquer doença. 
+                    Os resultados podem variar de pessoa para pessoa. Consulte um profissional de saúde antes de usar suplementos.
+                </p>
+                <p class="dev-credit">
+                    Desenvolvido por <a href="https://www.linkedin.com/in/carlos-gabriel-gomes-luz-0318862a0/">Carlos Gabriel</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../static/js/script.js"></script>
+</body>
+</html>
