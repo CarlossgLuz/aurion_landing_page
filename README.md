@@ -13,7 +13,7 @@
 * [Tecnologias](#tecnologias)
 * [Instalação](#instala%C3%A7%C3%A3o)
 * [Estrutura do projeto](#estrutura-do-projeto)
-* [Licença](#licen%C3%A7a)
+* [Badges](#badges)
 * [Contato](#contato)
 
 ---
@@ -28,7 +28,7 @@ O design é moderno, responsivo e focado em converter o usuário, levando-o a se
 
 ## Status
 
-_**✅ | Projeto concluído**_
+![Status](https://img.shields.io/badge/Status-Concluído-28a745?style=for-the-badge)
 
 ---
 
@@ -111,8 +111,26 @@ Aurion Page/
 
 ---
 
-## Licença
+## Badges
 
+> **Tecnologias**  
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
+
+> **Categoria do Projeto**  
+![Category](https://img.shields.io/badge/Project-Landing%20Page-6A1B9A?style=for-the-badge)
+![UX/UI](https://img.shields.io/badge/Focus-UX%20%2F%20UI-00C853?style=for-the-badge)
+
+> **Recursos Implementados**  
+![Responsive Design](https://img.shields.io/badge/Responsive%20Design-Yes-1E88E5?style=for-the-badge)
+![Animations](https://img.shields.io/badge/Animations-Scroll%20%2F%20Microinteractions-F4511E?style=for-the-badge)
+
+> **Extras**  
+![Vanilla JS](https://img.shields.io/badge/Vanilla-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000)
+![No Frameworks](https://img.shields.io/badge/Frameworks-None-424242?style=for-the-badge)
+
+> **Licença**  
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](#)
 
 ---
